@@ -8,8 +8,15 @@ It provides and Gin Framework Endpoint that can be reached when executing the go
 
 [localhost:8080/credit-assignment/](localhost:8080/credit-assignment/)
 
+### Input Parameters
+
+This application has the following input parameters required when doing the request.
+
+- *Investment* - Amount for investment on JSON format
 
 ## Request
+
+POST → /credit-assignment
 
 ```javascript
 {
